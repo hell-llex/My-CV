@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    
+    min-height: 100vh;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.header a, .main a{
+    cursor: pointer;
+
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    transition: .3s;
+}
+.header a:hover, .main a:hover  {
+    cursor: pointer;
+    color: rgb(29, 179, 179);
+    text-decoration:underline;
+    transition: .3s;
+}
+.container-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-width: 1000px;
+    min-height: 100%;
+    margin: 50px 0px;
+
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 400;
+
+    border-radius: 20px;
+    background: rgba(206, 206, 206, 0.089);
+    backdrop-filter: blur(30px);
+    border-top: 1px solid rgba(185, 185, 185, 0.5);
+    box-shadow: 0px 45px 55px rgba(0, 0, 0, 0.5);
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-height: 600px;
+    width: 100%;
+    padding: 10px 30px;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+    list-style: none;
+
+}
+.nav-link {
+    font-size: 30px;
+    color: black;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+}
+.portrait {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    max-height: 300px;
+
+    border: 20px solid rgb(29, 179, 179);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-portrait {
+    width: 300px;
+}
+.name {
+    position: relative;
+    z-index: 0;
+    height: 160px;
+    top: 70px;
+    margin: 0px 0px 0px -200px;
+    padding: 30px 30px 30px 210px;
+    
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+
+    border-radius: 10px;
+    background-color: rgb(29, 179, 179);
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 40%;
+    padding: 0px 20px;
+}
+.section{
+    font-size: 22px;
+    margin: 25px 20px;
+}
+.section-title {    
+    margin: 0px 0px 10px 0px;
+
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+.list-item {
+    margin: 5px 0px 5px 50px;
+}
+.other-link, .skills-list-minimum ,.skills-list-average, .projects-list, .about-me-skills, .language-list, .education-list {
+    margin: 0px 0px 0px 30px;
+}
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 60%;
+    border-radius: 10px 0px 0px 0px;
+    background-color: rgb(29, 179, 179);
+}
+.title-list {
+    margin: 20px 0px 10px 30px;
+}
+.code-example {
+    display: block;
+    overflow-x: auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    background:#272822;
+    color:#ddd
+}
+.code1 {
+    color:#a6e22e;
+}
+.code2 {
+    color:#f92672;
+    font-weight: bold;
+}
+.progress {
+    display: flex;
+    margin: 5px 0px;
+}
+.dot1 {
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border-radius: 50%;
+
+    background-color: black;
+}
+.dot2 {
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    border-radius: 50%;
+
+    background-color: whitesmoke;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    
+    border-radius: 0px 0px 20px 20px;
+    background: rgb(29, 179, 179);
+    backdrop-filter: blur(30px);
+}
+.my-logo {
+    height: 100px;
+    border-radius: 0px 0px 0px 20px;
+}
+.rs-logo {
+    height: 100px; 
+    border-radius: 0px 0px 20px 0px;
+}
+.footer-link {
+    display: flex;
+    align-items: flex-end;
+    height: 100px;
+    padding: 0px 0px 10px 0px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}

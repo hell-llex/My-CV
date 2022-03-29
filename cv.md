@@ -68,10 +68,14 @@ Work as a sales consultant, but it seems to me that I will not stay in this job 
 
 ## **Code examples**
 ```
+var str = "How can mirrors be real if our eyes aren't real";
+
 String.prototype.toJadenCase = function () {
   return this.split(' ').map((elem) => elem[0]
   .toUpperCase() + elem.slice(1)).join(' ')
 };
+
+str.toJadenCase()
 ```
 
 *****
