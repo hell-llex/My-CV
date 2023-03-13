@@ -1,1 +1,1 @@
-https://hell-llex.github.io/my-cv/
+https://hell-llex.github.io/My-CV/
