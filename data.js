@@ -1,4 +1,4 @@
-{
+const data = {
   "contacts": [
     {
       "title": "Location",
@@ -203,3 +203,5 @@
     }
   ]
 }
+
+export default data
