@@ -7,247 +7,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
     <title>CV Alexander Demeshchenko</title>
 </head>
 
-<body>
-    <div class="container-center">
+<body class="body">
+    <div class="wrapper">
+        <div class="download-container">
+            <div class="dowload-icon"></div>
+            <a href="./assets/CV Alexander Demeshchenko.pdf" download class="download-text">PDF</a>
+            <p>|</p>
+            <a href="./assets/CV Alexander Demeshchenko.png" download class="download-text">IMG</a>
+        </div>
         <header class="header">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                </ul>
-            </nav>
-            <input type="checkbox" name="btn-menu" id="btn-menu" class="radio">
-            <div class="title">
-                <div class="portrait">
-                    <img src="./assets/img/i.png" alt="Portrait" class="image-portrait">
-                </div>
-                <label for="btn-menu" class="container-name">
-                    <h2 class="name">Alexander Demeshchenko</h2>
-                </label>
-                <div for="btn-menu" class="container-name">
-                    <h2 class="name">Alexander Demeshchenko</h2>
-                </div>
-                <nav class="nav__mobile">
-                    <ul class="nav-list__mobile">
-                        <li class="nav-item__mobile"><a href="#about-me" class="nav-link__mobile">About me</a></li>
-                        <li class="nav-item__mobile"><a href="#code" class="nav-link__mobile">Code</a></li>
-                        <li class="nav-item__mobile"><a href="#education" class="nav-link__mobile">Education</a></li>
-                        <li class="nav-item__mobile"><a href="#languages" class="nav-link__mobile">Languages</a></li>
-                        <li class="nav-item__mobile"><a href="#contacts" class="nav-link__mobile">Contacts</a></li>
-                        <li class="nav-item__mobile"><a href="#skills" class="nav-link__mobile">Skills</a></li>
-                        <li class="nav-item__mobile"><a href="#projects" class="nav-link__mobile">Projects</a></li>
-                    </ul>
-                </nav>
+            <div class="container-portrait">
+                <div class="portrait"></div>
+            </div>
+            <div class="container-name">
+                <h2 class="name">Alexander Demeshchenko</h2>
+                <h2 class="position">frontend developer</h2>
             </div>
         </header>
         <main class="main">
             <div class="columns">
-                <div class="left-column">
-                    <section class="section" id="contacts">
-                        <h2 class="section-title">Contact information:</h2>
-                        <ul class="contacts-list">
-                            <li class="list-item">Phone number: <a href="tel:+375333751903">+375333751903</a></li>
-                            <li class="list-item">Email: <a
-                                    href="mailto:demeshenko333@gmail.com">demeshenko333@gmail.com</a></li>
-                            <li class="list-item">Location: Belarus, Minsk</li>
-                            <li class="list-item">GitHub: <a href="https://github.com/hell-llex">hell-llex</a></li>
-                            <li class="list-item">Discord: hell_llex#1516</li>
-                            <li class="list-item">Telegram: <a href="https://t.me/hell_llex">hell_llex</a></li>
-                            <li class="list-item">My site: <a href="https://hell-llex.ga/">hell-llex</a></li>
-                            <li class="list-item">Instagram: <a
-                                    href="https://www.instagram.com/hell_llex/">hell_llex</a></li>
-                            <li class="list-item">Behance: <a href="https://www.behance.net/hell_llex">hell_llex</a>
-                            </li>
-                            <li class="list-item">Vk: <a href="https://vk.com/hell_llex">hell_llex</a></li>
-                            <li class="list-item">Linkedin: <a href="https://www.linkedin.com/in/hell-llex">Alexander
-                                    Demeshchenko</a></li>
-                        </ul>
-                    </section>
-                    <section class="section" id="skills">
-                        <h2 class="section-title">Skills:</h2>
-                        <ul class="skills-list">
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                                    title="javascript" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                                    title="typescript" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
-                                    title="vuejs" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuetify/vuetify-original.svg"
-                                    title="vuetify" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                                    title="html" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-                                    title="css" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-                                    title="sass" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg"
-                                    title="git" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                                    title="github" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-                                    title="npm" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
-                                    title="webpack" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                                    title="figma" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
-                                    title="illustrator" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
-                                    title="photoshop" width="40" height="40" /></li>
-                            <li class="icon-skills"><img
-                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-                                    title="vscode" width="40" height="40" /></li>
-                        </ul>
-                    </section>
-                    <section class="section" id="projects">
-                        <h2 class="section-title">Projects:</h2>
-                        <ul class="projects-list">
-                            <li class="list-item"><a href="https://hell-llex.github.io/My-CV/">My CV</a></li>
-                            <li class="list-item">Other => <a href="https://github.com/hell-llex"> GitHub</a>
-                            </li>
-                        </ul>
-                    </section>
+                <div class="background-left">
+                    <div class="column-left">
+                        <section class="section contacts"></section>
+                        <section class="section hard-skills"></section>
+                        <section class="section projects"></section>
+                    </div>
                 </div>
-                <div class="right-column">
-                    <section class="section" id="about-me">
-                        <h2 class="section-title">About me:</h2>
-                        <p class="text">Hi, I'm Alexander Demeshchenko <img
-                                src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"> <br>
-                            I am live and work in Minsk. Work as a sales consultant, but it seems to me that I will not
-                            stay in this job for long. I
-                            have always been drawn to the field of information technology, so I will make every effort
-                            on the way to my goal. Minimally fond of photography.</p>
-                        <h3 class="title-list">Of the good skills , I can mention a couple:</h3>
-                        <ul class="about-me-skills">
-                            <li class="list-item">
-                                Communication skills: 9/10
-                                <div class="progress">
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot2"></span>
-                                </div>
-                            </li>
-                            <li class="list-item">
-                                Stress resistance: 9/10;
-                                <div class="progress">
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot2"></span>
-                                </div>
-                            </li>
-                            <li class="list-item">
-                                Modesty: 9/10;
-                                <div class="progress">
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot2"></span>
-                                </div>
-                            </li>
-                            <li class="list-item">
-                                Creativity: 7±2/10;
-                                <div class="progress">
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot1"></span>
-                                    <span class="dot2"></span>
-                                    <span class="dot2"></span>
-                                    <span class="dot2"></span>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="section" id="code">
-                        <h2 class="section-title">Code examples:</h2>
-                        <pre><code class="code-example"><span class="code2">let</span> str = "How can mirrors be real if our eyes aren't real"
-    
-String.prototype.toJadenCase = <span class="hljs-function"><span class="code2">function</span> () {
-    return this.<span class="hljs-function"><span class="code2">split</span>(' ')
-               .<span class="hljs-function"><span class="code2">map</span>((<span class="code1">elem</span>) => <span class="code1">elem</span>[0]
-               .<span class="hljs-function"><span class="code2">toUpperCase</span>() + <span class="code1">elem</span>
-               .<span class="hljs-function"><span class="code2">slice</span>(1))
-               .<span class="hljs-function"><span class="code2">join</span>(' ')
-};
+                <div class="background-right">
+                    <div class="column-right">
+                        <section class="section about"></section>
+                        <section class="section soft-skills"></section>
+                        <section class="section education"></section>
+                        <section class="section language"></section>
+                    </div>
+                </div>
 
-str.<span class="hljs-function"><span class="code2">toJadenCase</span>()</code></pre>
-                    </section>
-                    <section class="section" id="education">
-                        <h2 class="section-title">Education and courses:</h2>
-                        <ul class="education-list">
-                            <li class="list-item">Once upon a time I graduated from Gomel College-Branch of BelSUT
-                                Educational Institution.</li>
-                            <li class="list-item">What follows is self-education and self-development.</li>
-                            <li class="list-item">Successfully passed JS/FE 2022Q3.</li>
-                        </ul>
-                    </section>
-                    <section class="section" id="languages">
-                        <h2 class="section-title">Languages:</h2>
-                        <ul class="language-list">
-                            <li class="list-item">Russian - Native</li>
-                            <li class="list-item">English - Basic</li>
-                        </ul>
-                    </section>
+            </div>
+            <div class="column-mobile">
+                <div class="section-container-line">
+                    <div class="section-line"></div>
+                </div>
+                <div class="background-left">
+                    <section class="section about"></section>
+                </div>
+                <div class="section-container-line">
+                    <div class="section-line"></div>
+                </div>
+                <div class="background-right">
+                    <section class="section contacts"></section>
+                </div>
+                <div class="section-container-line">
+                    <div class="section-line"></div>
+                </div>
+                <div class="background-left">
+                    <section class="section soft-skills"></section>
+                </div>
+                <div class="section-container-line">
+                    <div class="section-line"></div>
+                </div>
+                <div class="background-right">
+                    <section class="section hard-skills"></section>
+                </div>
+                <div class="section-container-line">
+                    <div class="section-line"></div>
+                </div>
+                <div class="background-left">
+                    <section class="section projects"></section>
+                </div>
+                <div class="section-container-line">
+                    <div class="section-line"></div>
+                </div>
+                <div class="background-right">
+                    <section class="section education"></section>
+                </div>
+                <div class="section-container-line">
+                    <div class="section-line"></div>
+                </div>
+                <div class="background-left">
+                    <section class="section language"></section>
+                </div>
+                <div class="section-container-line">
+                    <div class="section-line"></div>
                 </div>
             </div>
         </main>
         <footer class="footer">
             <a href="https://github.com/hell-llex"><img src="./assets/img/logo.gif" alt="My Logo" title="GitHub"
                     class="my-logo"></a>
-            <p class="footer-link">© 2022 <br> hell_llex </p>
-            <!-- <a href="https://rs.school/js/"><img src="./assets/img/rs-school.svg" alt="Rsschool" class="rs-logo"></a> -->
+            <p class="footer-text">© hell-llex<span class="year">2021-2022</span></p>
         </footer>
     </div>
+    <script type="module" src="./script.js"></script>
 </body>
 
 </html>
