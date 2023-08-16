@@ -172,6 +172,10 @@ const data = {
     {
       "title": "My CV",
       "link": "#"
+    },
+    {
+      "title": "Online Store",
+      "link": "https://hell-llex.github.io/online-store/online-store/#"
     }
   ],
   "education": [
