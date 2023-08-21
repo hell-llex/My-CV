@@ -176,6 +176,10 @@ const data = {
     {
       "title": "Online Store",
       "link": "https://hell-llex.github.io/online-store/online-store/#"
+    },
+    {
+      "title": "React To-Do List",
+      "link": "https://hell-llex.github.io/react-todo-list/"
     }
   ],
   "education": [
