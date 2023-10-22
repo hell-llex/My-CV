@@ -151,35 +151,63 @@ const data = {
     ],
     "soft": [
       {
-        "title": "Communication skills",
-        "progress": 9
-      },
-      {
-        "title": "Stress resistance",
-        "progress": 9
-      },
-      {
         "title": "Modesty",
-        "progress": 9
+      },
+      {
+        "title": "Communication",
       },
       {
         "title": "Creativity",
-        "progress": 8
+      },
+      {
+        "title": "Stress resistance",
+      },
+      {
+        "title": "Problem-Solving",
+      },
+      {
+        "title": "Adaptability",
+      },
+      {
+        "title": "Teamwork",
+      },
+      {
+        "title": "Critical Thinking",
+      },
+      {
+        "title": "Time Management",
+      },
+      {
+        "title": "Creativity",
+      },
+      {
+        "title": "Attention to Detail",
+      },
+      {
+        "title": "Patience",
       }
     ]
   },
   "projects": [
     {
-      "title": "My CV",
+      "title": "JS | My CV",
       "link": "#"
     },
     {
-      "title": "Online Store",
+      "title": "JS | Online Store",
       "link": "https://hell-llex.github.io/online-store/online-store/#"
     },
     {
-      "title": "React To-Do List",
+      "title": "React | To-Do List",
       "link": "https://hell-llex.github.io/react-todo-list/"
+    },
+    {
+      "title": "React | GraphiQL",
+      "link": "https://qraphiql.netlify.app/"
+    },
+    {
+      "title": "Vue | Online Cinema",
+      "link": "https://siarheiliavontsyeu-sansrona-hell-llex.netlify.app/"
     }
   ],
   "education": [
