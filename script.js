@@ -26,12 +26,9 @@ const createContacts = () => {
 
 const createHardSkills = () => {
   const list = data.skills.hard.map((item) => `
-      <li class="list-item-icon-skills">
-        <div class="container-item">
-          <img src="${item.src}" title="${item.title}" class="skill-icon"/>
-          <p class="skill-text">${item.title}</p>
-        </div>
-      </li>
+    <li class="list-item-skills">
+      <p class="skill-text">${item.title.toUpperCase()}</p>
+    </li>
     `
   );
   return `
@@ -40,22 +37,11 @@ const createHardSkills = () => {
         `
 }
 
-const lineSkills = (progress) => {
-  const line = [];
-  for (let i = 0; i < 10; i++) {
-    line.push(i + 1 <= progress ? `<span class="dot1"></span>` : `<span class="dot2"></span>`)
-  }
-  return line.join('')
-}
-
 const createSoftSkills = () => {
   const list = data.skills.soft.map((item) => `
       <li class="list-item">
         <div class="container-item">
-          <p>${item.title}:</p>
-          <div class="progress">
-            ${lineSkills(item.progress)}
-          </div>
+          <p>${item.title}</p>
         </div>
       </li>
     `
