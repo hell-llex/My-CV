@@ -7,8 +7,8 @@ const data = {
     },
     {
       "title": "Phone",
-      "text": "+375333751903",
-      "link": "tel:+375333751903"
+      "text": "+375292897722",
+      "link": "tel:+375292897722"
     },
     {
       "title": "Email",
@@ -208,6 +208,10 @@ const data = {
     {
       "title": "Vue | Online Cinema",
       "link": "https://siarheiliavontsyeu-sansrona-hell-llex.netlify.app/"
+    },
+    {
+      "title": "HTML/CSS | TransitFlow",
+      "link": "https://hell-llex.github.io/transitflow-website"
     }
   ],
   "education": [
