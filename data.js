@@ -33,7 +33,7 @@ const data = {
     {
       "title": "My site",
       "text": "hell-llex",
-      "link": "https://hell-llex.ga/"
+      "link": "https://hell-llex.netlify.app/"
     },
     {
       "title": "Instagram",
