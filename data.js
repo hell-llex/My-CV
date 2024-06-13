@@ -225,7 +225,7 @@ const data = {
     {
       "title": "Znak.app",
       "link": "",
-      "dateStart": "December 2023",
+      "dateStart": "November 2023",
       "dateEnd": "March 2024",
       "stack": ["HTML", "CSS", "Tailwind", "React"],
     },
