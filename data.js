@@ -214,23 +214,31 @@ const data = {
       "link": "https://hell-llex.github.io/transitflow-website"
     }
   ],
+  "experience": [
+    {
+      "title": "Freelance frontend developer.",
+      "link": "",
+      "dateStart": "September 2023",
+      "dateEnd": "Now",
+      "stack": ["HTML", "CSS", "JS", "React", "Redux Toolkit", "TS", ],
+    },
+    {
+      "title": "Znak.app",
+      "link": "",
+      "dateStart": "December 2023",
+      "dateEnd": "March 2024",
+      "stack": ["HTML", "CSS", "Tailwind", "React"],
+    },
+  ],
   "education": [
     {
-      "title": "Self-education and self-development.",
-      "link": ""
+      "title": "Passed React 2023Q1.",
+      "link": ["https://app.rs.school/certificate/17ip7qja"],
     },
     {
-      "title": "Successfully passed JS/FE Pre-School 2022.",
-      "link": "https://app.rs.school/certificate/acpwc4d4"
+      "title": "Passed JavaScript/Front-end 2022Q3.",
+      "link": ["https://app.rs.school/certificate/r0baa7xn", "https://app.rs.school/certificate/acpwc4d4"],
     },
-    {
-      "title": "Successfully passed JavaScript/Front-end 2022Q3.",
-      "link": "https://app.rs.school/certificate/r0baa7xn"
-    },
-    {
-      "title": "Successfully passed React 2023Q1.",
-      "link": "https://app.rs.school/certificate/17ip7qja"
-    }
   ],
   "language": [
     {
@@ -239,7 +247,7 @@ const data = {
     },
     {
       "title": "English",
-      "progress": "Basic"
+      "progress": "A2"
     }
   ]
 }
