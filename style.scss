@@ -378,13 +378,33 @@ a {
                 }
             }
 
-            &.education .list-items .list-item .container-item {
+            &.experience .list-items .list-item .container-item {
                 min-height: 3rem;
                 display: flex;
-                flex-direction: row;
-                justify-content: flex-start;
-                align-items: center;
                 flex-wrap: wrap;
+
+                &.exp {
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                }
+
+                &.edc {
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+
+                & p:not(:nth-child(1)) {
+                    margin: 0 0 0 1rem;
+                    font-weight: 200;
+                    font-style: normal;
+                    text-align: right;
+                }
+
+                & p:nth-child(2) {
+                    margin: 1rem 0 1rem 1rem;
+                }
 
                 .certificate {
                     display: flex;
@@ -912,13 +932,33 @@ a {
 
 
 
-                &.education .list-items .list-item .container-item {
+                &.experience .list-items .list-item .container-item {
                     min-height: 3rem;
                     display: flex;
-                    flex-direction: row;
-                    justify-content: flex-start;
-                    align-items: center;
                     flex-wrap: wrap;
+
+                    &.exp {
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                    }
+
+                    &.edc {
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+
+                    & p:not(:nth-child(1)) {
+                        margin: 0 0 0 1rem;
+                        font-weight: 200;
+                        font-style: normal;
+                        text-align: right;
+                    }
+
+                    & p:nth-child(2) {
+                        margin: 1rem 0 1rem 1rem;
+                    }
 
                     .certificate {
                         display: flex;
@@ -955,5 +995,11 @@ a {
                 }
             }
         }
+    }
+}
+
+@media print {
+    .wrapper .download-container {
+        display: none;
     }
 }
