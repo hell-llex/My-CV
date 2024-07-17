@@ -57,6 +57,10 @@ const data = {
         "title": "typescript"
       },
       {
+        "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "title": "nodejs"
+      },
+      {
         "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
         "title": "vuejs"
       },
