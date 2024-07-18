@@ -216,7 +216,11 @@ const data = {
     {
       "title": "HTML/CSS | TransitFlow",
       "link": "https://hell-llex.github.io/transitflow-website"
-    }
+    },
+    {
+      "title": "React | My site",
+      "link": "https://hell-llex.netlify.app/"
+    },
   ],
   "experience": [
     {
